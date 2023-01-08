@@ -1,6 +1,6 @@
 
-![Alt](./Imágenes/Logo_umb.PNG) 
-![Alt](/Imágenes/Logo_edomex.PNG)
+![Alt](https://i.pinimg.com/originals/97/d1/37/97d1371e491a311cb5d89c37de690848.png "UMB")
+![Alt](https://www.conalepmex.edu.mx/images/2018/01/11/sitio-interes4-edomexgob.png "Gobierno del Estado de México")
 
 ### <p align = center> UNIVERSIDAD MEXIQUENSE DEL BICENTENARIO 
 ### <p align = center> UNIDAD DE ESTUDIOS SUPERIORES SAN JOSÉ DEL RINCON  
