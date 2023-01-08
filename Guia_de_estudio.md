@@ -1,5 +1,5 @@
 
-![Alt](https://i.pinimg.com/originals/97/d1/37/97d1371e491a311cb5d89c37de690848.png "UMB")
+![Alt](https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072016/untitled-1_237.png?itok=LaVxt7WP "UMB")
 ![Alt](https://www.conalepmex.edu.mx/images/2018/01/11/sitio-interes4-edomexgob.png "Gobierno del Estado de México")
 
 ### <p align = center> UNIVERSIDAD MEXIQUENSE DEL BICENTENARIO 
