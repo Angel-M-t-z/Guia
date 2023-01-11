@@ -29,7 +29,9 @@
 
 # <p align = center> INTRODUCCIÓN
 
-<p align = justify> El presente proyecto es realizado en el primer semestre universitario de la carrera Ingeniería en Sistemas Computacionales, elaborado en la ultima evaluación parcial de la asignatura **Fundamentos de Programación**. Este proyecto tiene como motivo transmitir conocimientos basicos de la programación a aquellos que van entrando en este mundo, el proyecto contiene conceptos basicos, así como herramientas utilizadas para la programación (herramientas como editores de texto), además de que informa sobre algunos lenguajes de programación, su historia, sus usos, su aplicabilidad, ventajas y desventajas, con el objetivo de que el lector interesado en el mundo de la programación pueda resolver algunas de sus dudas y que pueda elegir cual lenguanje de programación le llama más la atención para iniciar con el desarrollo de software.
+<!--- <p align = justify> si agrego esta linea el programa no me lee las negritas que quiero especificar --->
+
+El presente proyecto es realizado en el primer semestre universitario de la carrera Ingeniería en Sistemas Computacionales, elaborado en la ultima evaluación parcial de la asignatura **Fundamentos de Programación**. Este proyecto tiene como motivo transmitir conocimientos basicos de la programación a aquellos que van entrando en este mundo, el proyecto contiene conceptos basicos, así como herramientas utilizadas para la programación (herramientas como editores de texto), además de que informa sobre algunos lenguajes de programación, su historia, sus usos, su aplicabilidad, ventajas y desventajas, con el objetivo de que el lector interesado en el mundo de la programación pueda resolver algunas de sus dudas y que pueda elegir cual lenguanje de programación le llama más la atención para iniciar con el desarrollo de software.
 
 # <p align = center> OBJETIVOS
 
@@ -40,11 +42,11 @@
 
 # <p align = center> ÍNDICE
 
-- Introducción
-- Objetivos
-- Índice
-- Conceptos básicos
-    - Programación
+1. Introducción
+2. Objetivos
+3. Índice
+4. Conceptos básicos
+    * Programación
         - ¿Qué es?
         - ¿Para qué sirve?
         - Historia
@@ -57,12 +59,12 @@
         - Programación Reactiva
     - Lenguajes compilados
     - Lenguajes interpretados
-- Editores de texto
+5. Editores de texto
     - Visual Studio Code
     - Atom
     - Sublime Text
-- Guía de lenguajes
-- Python
+6. Guía de lenguajes
+7. Python
     - ¿Qué es python?
     - Paradigmas que se pueden implementar
     - Aplicaciones comunes del lenguaje
@@ -74,7 +76,7 @@
     - Hola mundo
     - Comandos de ejecución de un programa
     - 10 Algoritmos de ejemplo
-- C++
+8. C++
     - ¿Qué es c++?
     - Paradigmas que se pueden implementar
     - Aplicaciones comunes del lenguaje
@@ -86,7 +88,7 @@
     - Hola mundo
     - Comandos de compilación y ejecución de un programa
     - 10 Algoritmos de ejemplo
-- Javascript
+9. Javascript
     - ¿Qué es javascript?
     - Paradigmas que se pueden implementar
     - Aplicaciones comunes del lenguaje
@@ -98,7 +100,7 @@
     - Hola mundo
     - Proceso de ejecución de un programa
     - 10 Algoritmos de ejemplo
-- PHP
+10. PHP
     - ¿Qué es PHP?
     - Paradigmas que se pueden implementar
     - Aplicaciones comunes del lenguaje
@@ -110,7 +112,7 @@
     - Hola mundo
     - Proceso de ejecución de un programa
     - 10 Algoritmos de ejemplo
-- Ensamblador
+11. Ensamblador
     - ¿Qué es ensamblador?
     - Paradigmas que se pueden implementar
     - Aplicaciones comunes del lenguaje
@@ -122,8 +124,8 @@
     - Hola mundo
     - Proceso de ejecución de un programa con emu8086
     - 5 Algoritmos de ejemplo
-- Conclusiones
-- Bibliografía
+12. Conclusiones
+13. Bibliografía
 
 # <p align = center> CONCEPTOS BÁSICOS
 ## <p align = center> PROGRAMACIÓN
@@ -191,8 +193,81 @@ Los lenguajes de programación interpretados son aquellos que no necesitan pasar
 
 # <p align = center> EDITORES DE TEXTO
 
-## <p align = center> Python
+## <p align = center> VISUAL STUDIO CODE
 
+## <p align = center> ATOM
+
+## <p align = center> SUBLIME TEXT
+
+# <p align = center> GUÍA DE LENGUAJES
+
+## <p align = center> Python
+### ¿QUÉ ES PYTHON?
+Python es un lenguaje de programación de alto nivel, esta clasificado entre los lenguajes interpretados, pero también puede ser compilado para ejecutarse, soporta paradigmas como la POO, su sintaxis es muy parecida al lenguaje natural, por ello se considera como lenguaje de alto nivel, además con Python se pueden programar diversidad de programas, tales como páginas web, aplicaciones, e incluso inteligencia artificial. 
+
+### PARADIGMAS QUE SE PUEDEN IMPLEMENTAR
+Python es un lenguaje de programación multiparadigma, es decir que soporta varios paradigmas de programación (programación orientada a objetos, programación orientada a procedimientos y programación funcional).
+
+### APLICACIONES COMUNES DEL LENGUAJE
+Python es utilizado por empresas de todo el mundo para construir aplicaciones web, analizar datos, automatizar operaciones y crear aplicaciones empresariales fiables y escalables, además de que también suele ser muy usado para crear AI.
+
+### PROS Y CONTRAS VS OTROS LENGUAJES
+**Ventajas:**
+* Lenguaje de alto nivel
+* Multiparadigma
+* Posee diversas bibliotecas y frameworks
+* Portablilidad
+* Gratis y de código abierto
+* Baja curva de aprendizaje
+* Comunidad fuerte
+**Desvnetajas:**
+* Lentitud
+* Consumo de memoria
+* Desarrollo móvil
+
+### INSTALACIÓN
+Para poder hacer la instalación correcta de python, unicamente se debe hacer lo siguiente:
+
+### CONFIGURACIÓN
+#### ENTORNO (SISTEMA OPERATIVO)
+Al momento de instalar Python, en el sistema se agregan variables de entorno, esto para que el sistema pueda buscar con esa variable lo que queremos hacer cuando vamos a ejecutar un programa escrito en Python, si no se agrega cuando hacemos la instalación, se debe hacer manualmente copiando la ruta de la carpeta de Python, yendo a la configuración avanzada del sistema en en caso de windows, en el apartado de variables de entorno, en Path se da clic en editar, posteriormente en nueva y se coloca la ruta de la carpeta de Python, por último se guarda y el sistema podra verificar en ella cuando se ejecute un programa escrito en Python.
+
+#### ENTORNO (EDITOR DE TEXTO)
+
+### HOLA MUNDO
+Para imprimir un "Hola mundo" en Python, se escribe la siguiente línea de código:
 ```python
 print("Hola mundo")
 ```
+Ahora para poder ejecutar el comando, se va a la terminal de Windows, se navega entre los directorios hasta llegar en aquella carpeta que contenga el archivo .py
+Al encontrar el archivo, se escribe lo siguiente:
+```
+> python _Nombre_del_archivo.py
+```
+Al darle enter, el programa sera interpretado por el interprete de Python y hará lo que le hemos especificado con el código.
+![Imprimir Hola Mundo](https://drive.google.com/file/d/1MbxisEDWfTk8GM1lIZuLlCsDqXvg6iGm/view?usp=share_link "Hola mundo")
+
+## <p align = center> C++
+
+## <p align = center> JavaScript
+
+## <p align = center> PHP
+
+## <p align = center> Ensamblador
+
+# <p align = center> CONCLUSIONES
+Este proyecto contiene temas escenciales sobre la programación, como el concepto de qué es, sus aplicaciones, historia, como esta relacionada con los algoritmos y diagramas de flujo. Para la programación se hacen uso de lenguajes de programación, tambien se especifica en este proyecto que es un lenguaje de programación, como se clasifican, como es el comportamiento de cada uno, los diversos paradigmas de programación que podemos utilizar, algunas de las herramientas que un desarrollador puede usar para construir sus propios programas, y sobre todo, se muestran ejemplos claros para poder usar los lenguajes de programación. En otras palabras, este proyecto es una guía completa para que una persona que apenas esta comenzado en el mundo de la programación pueda tomar como base para entender un poco de cómo funciona el desarrollo de software. 
+
+# <p align = center> BIBLIOGRAFÍA
+Syltec. (2023). ENGINEERING SYLTEC MAKING FUTURE. Obtenido de [https://syltec.es/blog/2021/10/05/programacion-un-poco-de-historia-y-conceptos-clave/#:~:text=Historia%20de%20la%20programaci%C3%B3n,introducido%20y%20automatizaba%20los%20procesos.](https://syltec.es/blog/2021/10/05/programacion-un-poco-de-historia-y-conceptos-clave/#:~:text=Historia%20de%20la%20programaci%C3%B3n,introducido%20y%20automatizaba%20los%20procesos. "Programación, un poco de historia y conceptos clave")
+
+Andres. (2023). Curriculos Exploratorios en Tic. Obtenido de [http://contenidos.sucerman.com/nivel3/dispositivos/unidad1/leccion2.html](http://contenidos.sucerman.com/nivel3/dispositivos/unidad1/leccion2.html "¿Qué es la programación orientada a eventos?")
+
+Iñiga J. (2023). Profile. Obtenido de [https://profile.es/blog/que-es-la-programacion-reactiva-una-introduccion/](https://profile.es/blog/que-es-la-programacion-reactiva-una-introduccion/ "¿Qué es la programación reactiva? Una introducción")
+
+### PYTHON
+Greyrat R. (2023). Barcelona Geeks. Obtenido de [https://barcelonageeks.com/paradigmas-de-programacion-en-python/](https://barcelonageeks.com/paradigmas-de-programacion-en-python/ "Paradigmas de programación en Pyhton")
+
+Visus A. (2023). Esic. Obtenido de [https://www.esic.edu/rethink/tecnologia/para-que-sirve-python#:~:text=El%20lenguaje%20de%20programaci%C3%B3n%20Python,aplicaciones%20empresariales%20fiables%20y%20escalables.](https://www.esic.edu/rethink/tecnologia/para-que-sirve-python#:~:text=El%20lenguaje%20de%20programaci%C3%B3n%20Python,aplicaciones%20empresariales%20fiables%20y%20escalables. "¿Para qué sirve Python? Razones para utilizar este lenguaje de programación")
+
+KeepCoding. (2023). KeepCoding. Obtenido de [https://keepcoding.io/blog/ventajas-y-desventajas-de-python/](https://keepcoding.io/blog/ventajas-y-desventajas-de-python/ "Ventajas y desventajas de Python")
