@@ -192,15 +192,23 @@ Los lenguajes de programación compilados son aquellos que deben pasar a través
 Los lenguajes de programación interpretados son aquellos que no necesitan pasar a través de un compilador, por lo que al ejecutarse, un interprete va interpretando el código línea por línea del programa en el momento de la ejecución, esto hace que su ejecución sea más lenta que la de los lenguajes compilados, pero con el paso del tiempo se ha ido haciendo cada vez más rapida en su ejecución.
 
 # <p align = center> EDITORES DE TEXTO
-
 ## <p align = center> VISUAL STUDIO CODE
+Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft. Es software libre y multiplataforma, está disponible para Windows, GNU/Linux y macOS. VS Code tiene una buena integración con Git, cuenta con soporte para depuración de código, y dispone de un sinnúmero de extensiones, que básicamente te da la posibilidad de escribir y ejecutar código en cualquier lenguaje de programación.
+![VSCODE](https://assets.stickpng.com/images/62a79050e42d729d928b1756.png "Visual Studio Code")
 
 ## <p align = center> ATOM
+Atom es un editor de código de fuente abierta para macOS, Linux, y Windows con soporte para plug-ins escrito en Node.js, Incrustando Git Control, desarrollado por GitHub. Es una aplicacion de escritorio construida utilizando tecnologias web. Está basado en Electrón (Anteriormente conocido como Atom Shell),Un framework que permite aplicaciones de escritorio multiplataforma usando Chromium y Node.js. También puede ser utilizado como un entorno de desarrollo integrado (IDE).
+![ATOM](https://i.pinimg.com/originals/3f/a3/ba/3fa3ba4d765179f9889c3cf0672dd967.png "Atom")
 
 ## <p align = center> SUBLIME TEXT
+Sublime Text es un editor de texto para escribir código en casi cualquier formato de archivo. Está especialmente pensado para escribir sin distracciones. Es decir, que visualmente ofrece un entorno oscuro donde las líneas de código que escribas resaltarán para que puedas centrarte exclusivamente en ellas. De una forma sencilla podemos decir que Sublime Text, es un editor de texto ligero, pensado desde un inicio en la velocidad, haciendolo uno de los editores de texto más rápido y facil de usar. Además de la velocidad se tiene más de 1000 de plugins adicionales y todos de codigo abierto, con una comunidad de desarrolladores que día a día contribuyen desarrollando nuevos plugins los cuales proveen de mas funcionalidad a este progrema.
+
+Sublime Text es multiplataforma, disponible para Linux, Windows y XO S. Es un programa de pago, la licencia individual cuesta 70$ aunque se puede descargar una versión de prueba que tiene tiempo ilimitado.
+
+Es un editor que puede ser muy personalizado aunque por defecto tiene un fondo negro con las palabras reservadas por el lenguaje tienen un color distinto al resto y todas llamativas, gracias a esto, hace que aumente la concentración a la hora de escribir código.
+![SUBLIME TEXT](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Breezeicons-apps-48-sublime-text.svg/1200px-Breezeicons-apps-48-sublime-text.svg.png "Sublime Text")
 
 # <p align = center> GUÍA DE LENGUAJES
-
 ## <p align = center> Python
 ### ¿QUÉ ES PYTHON?
 Python es un lenguaje de programación de alto nivel, esta clasificado entre los lenguajes interpretados, pero también puede ser compilado para ejecutarse, soporta paradigmas como la POO, su sintaxis es muy parecida al lenguaje natural, por ello se considera como lenguaje de alto nivel, además con Python se pueden programar diversidad de programas, tales como páginas web, aplicaciones, e incluso inteligencia artificial. 
@@ -242,10 +250,30 @@ print("Hola mundo")
 Ahora para poder ejecutar el comando, se va a la terminal de Windows, se navega entre los directorios hasta llegar en aquella carpeta que contenga el archivo .py
 Al encontrar el archivo, se escribe lo siguiente:
 ```
-> python _Nombre_del_archivo.py
+> python _Nombre_del_archivo_.py
 ```
 Al darle enter, el programa sera interpretado por el interprete de Python y hará lo que le hemos especificado con el código.
-![Imprimir Hola Mundo](https://drive.google.com/file/d/1MbxisEDWfTk8GM1lIZuLlCsDqXvg6iGm/view?usp=share_link "Hola mundo")
+![Imprimir Hola Mundo](./Imágenes/Python/Hola_Mundo.PNG "Hola mundo")
+
+### 10 ALGORITMOS DE EJEMPLO ESCRITOS EN PYTHON
+*Suma de dos numeros:*  
+Crear un archivo con extensión .py el cual debe tener como contenido:
+```Python
+a = 5
+b = 6
+c = a + b
+
+print("La suma es: ", c)
+```
+En la terminal de comandos, estando en la ubicación del archivo, se colocará el siguiente comando:
+```
+> python _nombre_de_archivo_.py
+```
+La salida será la siguiente:
+![Suma](./Imágenes/Python/Suma.PNG)
+
+
+
 
 ## <p align = center> C++
 
@@ -264,6 +292,12 @@ Syltec. (2023). ENGINEERING SYLTEC MAKING FUTURE. Obtenido de [https://syltec.es
 Andres. (2023). Curriculos Exploratorios en Tic. Obtenido de [http://contenidos.sucerman.com/nivel3/dispositivos/unidad1/leccion2.html](http://contenidos.sucerman.com/nivel3/dispositivos/unidad1/leccion2.html "¿Qué es la programación orientada a eventos?")
 
 Iñiga J. (2023). Profile. Obtenido de [https://profile.es/blog/que-es-la-programacion-reactiva-una-introduccion/](https://profile.es/blog/que-es-la-programacion-reactiva-una-introduccion/ "¿Qué es la programación reactiva? Una introducción")
+
+### VSCODE
+Flores F. (2023). OpenWebinars. Obtenido de [https://openwebinars.net/blog/que-es-visual-studio-code-y-que-ventajas-ofrece/](https://openwebinars.net/blog/que-es-visual-studio-code-y-que-ventajas-ofrece/ "Qué es Visual Studio Code y qué ventajas ofrece")
+
+### ATOM
+Diego_Alberto. (2023). Práctica. Obtenido de [https://ull-esit-dsi-1617.github.io/estudiar-las-rutas-en-expressjs-alberto-diego/](https://ull-esit-dsi-1617.github.io/estudiar-las-rutas-en-expressjs-alberto-diego/ "Rutas de estudio")
 
 ### PYTHON
 Greyrat R. (2023). Barcelona Geeks. Obtenido de [https://barcelonageeks.com/paradigmas-de-programacion-en-python/](https://barcelonageeks.com/paradigmas-de-programacion-en-python/ "Paradigmas de programación en Pyhton")
