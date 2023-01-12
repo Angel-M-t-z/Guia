@@ -194,7 +194,7 @@ Los lenguajes de programación interpretados son aquellos que no necesitan pasar
 # <p align = center> EDITORES DE TEXTO
 ## <p align = center> VISUAL STUDIO CODE
 Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft. Es software libre y multiplataforma, está disponible para Windows, GNU/Linux y macOS. VS Code tiene una buena integración con Git, cuenta con soporte para depuración de código, y dispone de un sinnúmero de extensiones, que básicamente te da la posibilidad de escribir y ejecutar código en cualquier lenguaje de programación.
-![VSCODE](https://assets.stickpng.com/images/62a79050e42d729d928b1756.png "Visual Studio Code")
+![VSCODE](https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png "Visual Studio Code")
 
 ## <p align = center> ATOM
 Atom es un editor de código de fuente abierta para macOS, Linux, y Windows con soporte para plug-ins escrito en Node.js, Incrustando Git Control, desarrollado por GitHub. Es una aplicacion de escritorio construida utilizando tecnologias web. Está basado en Electrón (Anteriormente conocido como Atom Shell),Un framework que permite aplicaciones de escritorio multiplataforma usando Chromium y Node.js. También puede ser utilizado como un entorno de desarrollo integrado (IDE).
@@ -234,19 +234,22 @@ Python es utilizado por empresas de todo el mundo para construir aplicaciones we
 * Desarrollo móvil
 
 ### INSTALACIÓN
-Para poder hacer la instalación correcta de python, unicamente se debe hacer lo siguiente:
+Para poder hacer la instalación correcta de python, unicamente se debe hacer lo que se especifica en la siguiente liga:
+[Guía de instalación de Python](https://python-para-impacientes.blogspot.com/2017/02/instalar-python-paso-paso.html "Python 3 para principiantes")
 
 ### CONFIGURACIÓN
-#### ENTORNO (SISTEMA OPERATIVO)
+#### **ENTORNO (SISTEMA OPERATIVO)**
 Al momento de instalar Python, en el sistema se agregan variables de entorno, esto para que el sistema pueda buscar con esa variable lo que queremos hacer cuando vamos a ejecutar un programa escrito en Python, si no se agrega cuando hacemos la instalación, se debe hacer manualmente copiando la ruta de la carpeta de Python, yendo a la configuración avanzada del sistema en en caso de windows, en el apartado de variables de entorno, en Path se da clic en editar, posteriormente en nueva y se coloca la ruta de la carpeta de Python, por último se guarda y el sistema podra verificar en ella cuando se ejecute un programa escrito en Python.
 
-#### ENTORNO (EDITOR DE TEXTO)
+#### **ENTORNO (EDITOR DE TEXTO)**
+Si se va a usar el editor de texto VSCode se debe de instalar una extensión para poder hacer uso de Python, esta extensión nos ayuda a poder usar temas para las palabras reservadas, variables, funciones, entre otras cosas que nos provee Python. Sin embargo, se puede ejecutar en la terminal. Al momento de hacer la instalación, Python también nos instala un interprete, cuando ejecutamos en la terminal un arcivo .py ya no es necesario instalar nada más.
 
 ### HOLA MUNDO
 Para imprimir un "Hola mundo" en Python, se escribe la siguiente línea de código:
 ```python
 print("Hola mundo")
 ```
+### COMANDOS DE EJECUCIÓN DE UN PROGRAMA
 Ahora para poder ejecutar el comando, se va a la terminal de Windows, se navega entre los directorios hasta llegar en aquella carpeta que contenga el archivo .py
 Al encontrar el archivo, se escribe lo siguiente:
 ```
@@ -256,7 +259,7 @@ Al darle enter, el programa sera interpretado por el interprete de Python y har�
 ![Imprimir Hola Mundo](./Imágenes/Python/Hola_Mundo.PNG "Hola mundo")
 
 ### 10 ALGORITMOS DE EJEMPLO ESCRITOS EN PYTHON
-*Suma de dos numeros:*  
+***1. Suma:** Realice un programa que haga la suma de dos numeros.*  
 Crear un archivo con extensión .py el cual debe tener como contenido:
 ```Python
 a = 5
@@ -272,10 +275,186 @@ En la terminal de comandos, estando en la ubicación del archivo, se colocará e
 La salida será la siguiente:
 ![Suma](./Imágenes/Python/Suma.PNG)
 
+***2. Solicitar nombre:** Elabore un programa que solicite el nombre de una persona y lo muestre.* 
+Crear un archivo con extensión .py en el cual se debe de tener el siguiente contenido:
+```Python
+nombre = input("Por favor ingrese su nombre: ")
+print(nombre)
+```
+En la terminal de comandos, en el directorio del archivo, ejecutarlo:
+```
+> python _archivo_.py
+```
+La salida será la siguiente: 
+![Pedir nombre](./Imágenes/Python/Pedir_nombre.PNG)
 
+***3. Mayor o menor:** Programa que pregunte la edad de una persona y evalúe si es mayor o menor de edad.*
 
+El archivo que se va a crear debe de tener lo siguiente:
+```Python
+edad = int(input("Ingrese su edad: "))
+
+if edad > 0:
+    if edad <= 17:
+        print("Eres menor de edad")
+    else: 
+        print("Eres mayor de edad")
+else:
+    print("La edad no es correcta")
+```
+Se va a ejecutar en la terminal con el comando:
+```
+> python nombre_del_archivo.py
+```
+El resultado será el siguiente:
+![Evaluar Edad](./Imágenes/Python/Evaluar_edad.PNG)
+
+***4. Tablas de multiplicar:** El usuario ingresará un número y el programa realizará las tablas de multiplicar del 1 al 10.*
+
+Crear el archivo con el siguiente contenido:
+```Python
+numero = int(input("Ingrese un número: "))
+
+for a in range(1, 11):
+    print(f"{numero} * {a} = {numero * a}")
+```
+Después de guardar el archivo con extension .py, se ejecutará con el comando en la terminal:
+```Python
+> python archivo.py
+```
+La salida será la siguiente:
+![Tablas](./Imágenes/Python/Tablas.PNG)
+
+***5. Numeros impares:** El programa imprimira en pantalla 10 numeros impares.*
+Elaborar un archivo .py:
+```Python
+for a in range(1, 20, 2):
+    print(a)
+```
+Ejecutar el archivo .py:
+```
+> python archivo.py
+```
+El programa generará la siguiente salida:
+![Impares](./Imágenes/Python/Impares.PNG "Numeros impares")
+
+***6. División, dos decimales:** Hacer un programa que pueda hacer una división y que el resultado unicamente permita dos decimales.*
+En el archivo .py colocar lo siguiente:
+```Python
+numero_uno = 10
+numero_dos = 3
+resultado = numero_uno / numero_dos
+
+print(round(resultado, 2))
+```
+En la terminal colocar: 
+```
+> python archivo.py
+```
+Se generará la siguiente salida:
+![Division_decimales](./Imágenes/Python/Div_Dec.PNG "Division y dos decimales")
+
+***7. División Entera:**  Ahora generará un programa que unicamente devuelva resultados enteros.*
+En el archivo con extensión .py colocar el siguiente código:
+```Python
+numero_uno = 10
+numero_dos = 3
+resultado = numero_uno // numero_dos
+
+print("El resultado es: ", resultado)
+```
+En la terminal de comandos colocar la instrucción para ejecutar el archivo de Python:
+```
+> python archivo.py
+```
+El código anterior dará como resultado lo siguiente:
+![División Entera](./Imágenes/Python/Division_entera.PNG "División Entera")
+
+***8. Potencia:** Elaborar un porgrama que sea capaz de obtener la potencia de un número dado por el usuario. *
+El archivo .py contendra lo siguiente:
+```Python
+base = int(input("Por favor ingrese un numero base: "))
+exponente = int(input("Por favor, ahora ingrese el exponente: "))
+
+print(f"El resultado de la potencia es: {base**exponente}")
+```
+Ejecutar el archivo .py:
+```
+> python archivo.py
+```
+Lo anterior nos dará como resultado lo siguiente:
+![Potencia](./Imágenes/Python/Potencia.PNG "Potencia")
+
+***9. Raíz Cuadrada o Cúbica:** El usuario tendrá las opciones de elegir entre una raíz cuadrada o cúbica, dichas operaciones seran programadas.*
+Programar lo siguiente:
+```Python
+opcion = int(input("1. Realizar una raíz cuadrada. 2. Realizar una raíz cúbica. \n Elija su opción: "))
+numero = int(input("Ingrese un número: "))
+
+if opcion == 1:
+    print("La raiz cuadrada es: ")
+    print(numero ** .5)
+elif opcion == 2:
+    print("La raiz cubica es: ")
+    print(numero ** .33)
+else:
+    print("Lo lamentamos, lo que solicito no esta disponible")
+```
+Posterior a la creación del archivo con extensión .py ejecutarlo:
+```
+> python archivo.py
+```
+Lo anterior nos dará como salida lo siguiente:
+![Raíz](./Imágenes/Python/Raiz.PNG "Raiz cuadrada o cúbica")
+
+***10. Inversor:** El usuario introducirá una palabra y el programa debe de invertir dicha palabra.* 
+Se pueden proponer distintas soluciones, sin embargo una de ellas es la siguiente:
+```Python
+palabra = input("Ingrese una palabra: ")
+nueva_palabra = ""
+
+for letra in palabra:
+    nueva_palabra = letra + nueva_palabra
+
+print(nueva_palabra)   
+```
+Ejecutar el archivo en la terminal de comandos:
+```
+> python archivo.py
+```
+La salida generada deberá ser la siguiente:
+![Invertir](./Imágenes/Python/Invertir.PNG "Invertir palabra")
 
 ## <p align = center> C++
+### ¿QUÉ ES C++?
+C++ es un lenguaje de programación que proviene de la extensión del lenguaje C para que pudiese manipular objetos. A pesar de ser un lenguaje con muchos años, su gran potencia lo convierte en uno de los lenguajes de programación más demandados.
+
+Fue diseñado a mediados de los años 80 por el danés Bjarne Stroustrup. Su intención fue la de extender el lenguaje de programación C (con mucho éxito en ese momento) para que tuviese los mecanismos necesarios para manipular objetos. 
+
+### PARADIGMAS QUE SE PUEDEN IMPLEMENTAR
+C++ contiene los paradigmas de la programación estructurada y orientada a objetos, por lo que se le conoce como un lenguaje de programación multiparadigma.
+
+### APLICACIONES COMUNES DEL LENGUAJE
+Se pueden construir Bases de Datos con C++.
+Muchos navegadores web usan C++ debido a que el lenguaje tiene bastante potencia y es muy rápido en la ejecución.
+Lo principal que se ha construido con C++ son los Sistemas Operativos, Windows, Linux, e incluso MacOS, su código principal esta escrito en C++.
+Compiladores de muchos lenguajes de programación están escritos en C++.
+C++ es utilizado aún en el mundo de los videojuegos, bien para programar motores gráficos o para alguna parte concreta del videojuego.
+También tiene otras aplicaciones como en máquinas médicas, relojes inteligentes, etc. por su capacidad de estar cerca del lenguaje máquina que otros lenguajes de alto nivel.
+
+### PROS Y CONTRAS VS OTROS LENGUAJES
+Las principales ventajas de programar en C++ son:
+Alto rendimiento: Es una de sus principales características, el alto rendimiento que ofrece. Esto es debido a que puede hacer llamadas directas al sistema operativo, es un lenguaje compilado para cada plataforma, posee gran variedad de parámetros de optimización y se integra de forma directa con el lenguaje ensamblador.
+Lenguaje actualizado: A pesar de que ya tiene muchos años, el lenguaje se ha ido actualizando, permitiendo crear, relacionar y operar con datos complejos y ha implementado múltiples patrones de diseño.
+Multiplataforma
+Extendido: C y C++ están muy extendidos. Casi cualquier programa o sistema están escritos o tienen alguna parte escrita en estos lenguajes (desde un navegador web hasta el propio sistema operativo).
+Las principales desventajas de C++ es que se trata de un lenguaje muy amplio (con muchos años y muchas líneas de código), tiene que tener una compilación por plataforma y su depuración se complica debido a los errores que surgen. Además el manejo de librerías es más complicado que otros lenguajes como Java o .Net y su curva de aprendizaje muy alta.
+
+### INSTALACIÓN
+### CONFIGURACIÓN
+#### **ENTORNO (SISTEMA OPERATIVO)**
+
+#### **ENTORNO (EDITOR DE TEXTO)**
 
 ## <p align = center> JavaScript
 
@@ -305,3 +484,13 @@ Greyrat R. (2023). Barcelona Geeks. Obtenido de [https://barcelonageeks.com/para
 Visus A. (2023). Esic. Obtenido de [https://www.esic.edu/rethink/tecnologia/para-que-sirve-python#:~:text=El%20lenguaje%20de%20programaci%C3%B3n%20Python,aplicaciones%20empresariales%20fiables%20y%20escalables.](https://www.esic.edu/rethink/tecnologia/para-que-sirve-python#:~:text=El%20lenguaje%20de%20programaci%C3%B3n%20Python,aplicaciones%20empresariales%20fiables%20y%20escalables. "¿Para qué sirve Python? Razones para utilizar este lenguaje de programación")
 
 KeepCoding. (2023). KeepCoding. Obtenido de [https://keepcoding.io/blog/ventajas-y-desventajas-de-python/](https://keepcoding.io/blog/ventajas-y-desventajas-de-python/ "Ventajas y desventajas de Python")
+
+### C++
+Robledano A.(2023). OpenWebinars. Obtenido de [https://openwebinars.net/blog/que-es-cpp/](https://openwebinars.net/blog/que-es-cpp/ "Qué es c++: Características y aplicaciones")
+
+Brazo...
+Deben ser: 5700000
+Yo tengo: 3000000
+
+Trabajo: 40
+Yo tengo: 26
