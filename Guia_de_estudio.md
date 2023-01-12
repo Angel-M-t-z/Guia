@@ -379,7 +379,7 @@ El código anterior dará como resultado lo siguiente:
 
 ![División Entera](./Imágenes/Python/Division_entera.PNG "División Entera")
 
-***8. Potencia:** Elaborar un porgrama que sea capaz de obtener la potencia de un número dado por el usuario. *
+***8. Potencia:** Elaborar un porgrama que sea capaz de obtener la potencia de un número dado por el usuario.*
 El archivo .py contendra lo siguiente:
 ```Python
 base = int(input("Por favor ingrese un numero base: "))
@@ -503,9 +503,11 @@ KeepCoding. (2023). KeepCoding. Obtenido de [https://keepcoding.io/blog/ventajas
 ### C++
 Robledano A.(2023). OpenWebinars. Obtenido de [https://openwebinars.net/blog/que-es-cpp/](https://openwebinars.net/blog/que-es-cpp/ "Qué es c++: Características y aplicaciones")
 
+<!---
 Brazo...
 Deben ser: 5700000
 Yo tengo: 3000000
 
 Trabajo: 40
 Yo tengo: 26
+--->
