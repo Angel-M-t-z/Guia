@@ -228,13 +228,14 @@ Python es utilizado por empresas de todo el mundo para construir aplicaciones we
 * Gratis y de código abierto
 * Baja curva de aprendizaje
 * Comunidad fuerte
+
 **Desvnetajas:**
 * Lentitud
 * Consumo de memoria
 * Desarrollo móvil
 
 ### INSTALACIÓN
-Para poder hacer la instalación correcta de python, unicamente se debe hacer lo que se especifica en la siguiente liga:
+Para poder hacer la instalación correcta de python, únicamente se debe hacer lo que se especifica en la siguiente liga:
 [Guía de instalación de Python](https://python-para-impacientes.blogspot.com/2017/02/instalar-python-paso-paso.html "Python 3 para principiantes")
 
 ### CONFIGURACIÓN
