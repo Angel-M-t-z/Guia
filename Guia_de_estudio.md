@@ -194,7 +194,7 @@ Los lenguajes de programación interpretados son aquellos que no necesitan pasar
 # <p align = center> EDITORES DE TEXTO
 ## <p align = center> VISUAL STUDIO CODE
 Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft. Es software libre y multiplataforma, está disponible para Windows, GNU/Linux y macOS. VS Code tiene una buena integración con Git, cuenta con soporte para depuración de código, y dispone de un sinnúmero de extensiones, que básicamente te da la posibilidad de escribir y ejecutar código en cualquier lenguaje de programación.
-![VSCODE](https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png "Visual Studio Code")
+![VSCODE](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png "Visual Studio Code")
 
 ## <p align = center> ATOM
 Atom es un editor de código de fuente abierta para macOS, Linux, y Windows con soporte para plug-ins escrito en Node.js, Incrustando Git Control, desarrollado por GitHub. Es una aplicacion de escritorio construida utilizando tecnologias web. Está basado en Electrón (Anteriormente conocido como Atom Shell),Un framework que permite aplicaciones de escritorio multiplataforma usando Chromium y Node.js. También puede ser utilizado como un entorno de desarrollo integrado (IDE).
@@ -257,6 +257,7 @@ Al encontrar el archivo, se escribe lo siguiente:
 > python _Nombre_del_archivo_.py
 ```
 Al darle enter, el programa sera interpretado por el interprete de Python y hará lo que le hemos especificado con el código.
+
 ![Imprimir Hola Mundo](./Imágenes/Python/Hola_Mundo.PNG "Hola mundo")
 
 ### 10 ALGORITMOS DE EJEMPLO ESCRITOS EN PYTHON
@@ -274,6 +275,7 @@ En la terminal de comandos, estando en la ubicación del archivo, se colocará e
 > python _nombre_de_archivo_.py
 ```
 La salida será la siguiente:
+
 ![Suma](./Imágenes/Python/Suma.PNG)
 
 ***2. Solicitar nombre:** Elabore un programa que solicite el nombre de una persona y lo muestre.* 
@@ -287,6 +289,7 @@ En la terminal de comandos, en el directorio del archivo, ejecutarlo:
 > python _archivo_.py
 ```
 La salida será la siguiente: 
+
 ![Pedir nombre](./Imágenes/Python/Pedir_nombre.PNG)
 
 ***3. Mayor o menor:** Programa que pregunte la edad de una persona y evalúe si es mayor o menor de edad.*
@@ -308,6 +311,7 @@ Se va a ejecutar en la terminal con el comando:
 > python nombre_del_archivo.py
 ```
 El resultado será el siguiente:
+
 ![Evaluar Edad](./Imágenes/Python/Evaluar_edad.PNG)
 
 ***4. Tablas de multiplicar:** El usuario ingresará un número y el programa realizará las tablas de multiplicar del 1 al 10.*
@@ -324,6 +328,7 @@ Después de guardar el archivo con extension .py, se ejecutará con el comando e
 > python archivo.py
 ```
 La salida será la siguiente:
+
 ![Tablas](./Imágenes/Python/Tablas.PNG)
 
 ***5. Numeros impares:** El programa imprimira en pantalla 10 numeros impares.*
@@ -337,6 +342,7 @@ Ejecutar el archivo .py:
 > python archivo.py
 ```
 El programa generará la siguiente salida:
+
 ![Impares](./Imágenes/Python/Impares.PNG "Numeros impares")
 
 ***6. División, dos decimales:** Hacer un programa que pueda hacer una división y que el resultado unicamente permita dos decimales.*
@@ -353,6 +359,7 @@ En la terminal colocar:
 > python archivo.py
 ```
 Se generará la siguiente salida:
+
 ![Division_decimales](./Imágenes/Python/Div_Dec.PNG "Division y dos decimales")
 
 ***7. División Entera:**  Ahora generará un programa que unicamente devuelva resultados enteros.*
@@ -369,6 +376,7 @@ En la terminal de comandos colocar la instrucción para ejecutar el archivo de P
 > python archivo.py
 ```
 El código anterior dará como resultado lo siguiente:
+
 ![División Entera](./Imágenes/Python/Division_entera.PNG "División Entera")
 
 ***8. Potencia:** Elaborar un porgrama que sea capaz de obtener la potencia de un número dado por el usuario. *
@@ -384,6 +392,7 @@ Ejecutar el archivo .py:
 > python archivo.py
 ```
 Lo anterior nos dará como resultado lo siguiente:
+
 ![Potencia](./Imágenes/Python/Potencia.PNG "Potencia")
 
 ***9. Raíz Cuadrada o Cúbica:** El usuario tendrá las opciones de elegir entre una raíz cuadrada o cúbica, dichas operaciones seran programadas.*
@@ -406,6 +415,7 @@ Posterior a la creación del archivo con extensión .py ejecutarlo:
 > python archivo.py
 ```
 Lo anterior nos dará como salida lo siguiente:
+
 ![Raíz](./Imágenes/Python/Raiz.PNG "Raiz cuadrada o cúbica")
 
 ***10. Inversor:** El usuario introducirá una palabra y el programa debe de invertir dicha palabra.* 
@@ -424,6 +434,7 @@ Ejecutar el archivo en la terminal de comandos:
 > python archivo.py
 ```
 La salida generada deberá ser la siguiente:
+
 ![Invertir](./Imágenes/Python/Invertir.PNG "Invertir palabra")
 
 ## <p align = center> C++
@@ -478,6 +489,9 @@ Flores F. (2023). OpenWebinars. Obtenido de [https://openwebinars.net/blog/que-e
 
 ### ATOM
 Diego_Alberto. (2023). Práctica. Obtenido de [https://ull-esit-dsi-1617.github.io/estudiar-las-rutas-en-expressjs-alberto-diego/](https://ull-esit-dsi-1617.github.io/estudiar-las-rutas-en-expressjs-alberto-diego/ "Rutas de estudio")
+
+### SUBLIME TEXT
+Code. (2023). Code. Obtenido de [https://www.codedonostia.com/sublime-text-que-es-y-para-que-sirve/](https://www.codedonostia.com/sublime-text-que-es-y-para-que-sirve/ "Sublime Text: qué es y para qué sirve")
 
 ### PYTHON
 Greyrat R. (2023). Barcelona Geeks. Obtenido de [https://barcelonageeks.com/paradigmas-de-programacion-en-python/](https://barcelonageeks.com/paradigmas-de-programacion-en-python/ "Paradigmas de programación en Pyhton")
