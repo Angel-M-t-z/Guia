@@ -511,3 +511,9 @@ Yo tengo: 3000000
 Trabajo: 40
 Yo tengo: 26
 --->
+
+
+---
+Notas:
+
+La funcion `int(x)` sirve para 
