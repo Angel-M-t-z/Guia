@@ -23,6 +23,90 @@ El presente proyecto es realizado en el primer semestre universitario de la carr
 
 ---
 ## **ÍNDICE**
+1. Introducción
+2. Objetivos
+3. Índice
+4. Conceptos básicos
+    * Programación
+        - ¿Qué es?
+        - ¿Para qué sirve?
+        - Historia
+    - Algoritmos
+    - Diagramas de flujo
+    - Lenguaje de programación
+    - Paradigmas de programación
+        - Programación Orientada a Objetos
+        - Programación Orientada a Eventos
+        - Programación Reactiva
+    - Lenguajes compilados
+    - Lenguajes interpretados
+5. Editores de texto
+    - Visual Studio Code
+    - Atom
+    - Sublime Text
+6. Guía de lenguajes
+7. Python
+    - ¿Qué es python?
+    - Paradigmas que se pueden implementar
+    - Aplicaciones comunes del lenguaje
+    - Pros y contras vs otros lenguajes
+    - Instalación
+    - Configuración
+        - Entorno (Sistema operativo)
+        - Entorno (Editor de texto)
+    - Hola mundo
+    - Comandos de ejecución de un programa
+    - 10 Algoritmos de ejemplo
+8. C++
+    - ¿Qué es c++?
+    - Paradigmas que se pueden implementar
+    - Aplicaciones comunes del lenguaje
+    - Pros y contras vs otros lenguajes
+    - Instalación
+    - Configuración
+        - Entorno (Sistema operativo)
+        - Entorno (Editor de texto)
+    - Hola mundo
+    - Comandos de compilación y ejecución de un programa
+    - 10 Algoritmos de ejemplo
+9. Javascript
+    - ¿Qué es javascript?
+    - Paradigmas que se pueden implementar
+    - Aplicaciones comunes del lenguaje
+    - Pros y contras vs otros lenguajes
+    - Instalación
+    - Configuración
+        - Entorno (Sistema operativo)
+        - Entorno (Editor de texto)
+    - Hola mundo
+    - Proceso de ejecución de un programa
+    - 10 Algoritmos de ejemplo
+10. PHP
+    - ¿Qué es PHP?
+    - Paradigmas que se pueden implementar
+    - Aplicaciones comunes del lenguaje
+    - Pros y contras vs otros lenguajes
+    - Instalación
+    - Configuración
+        - Entorno (Sistema operativo)
+        - Entorno (Editor de texto)
+    - Hola mundo
+    - Proceso de ejecución de un programa
+    - 10 Algoritmos de ejemplo
+11. Ensamblador
+    - ¿Qué es ensamblador?
+    - Paradigmas que se pueden implementar
+    - Aplicaciones comunes del lenguaje
+    - Pros y contras vs otros lenguajes
+    - Instalación
+    - Configuración
+        - Entorno (Sistema operativo)
+        - Entorno (Emulador emu8086)
+    - Hola mundo
+    - Proceso de ejecución de un programa con emu8086
+    - 5 Algoritmos de ejemplo
+12. Conclusiones
+13. Bibliografía
 
 ---
 ## **CONCEPTOS BÁSICOS**
@@ -608,8 +692,79 @@ Extendido: C y C++ están muy extendidos. Casi cualquier programa o sistema est�
 Las principales desventajas de C++ es que se trata de un lenguaje muy amplio (con muchos años y muchas líneas de código), tiene que tener una compilación por plataforma y su depuración se complica debido a los errores que surgen. Además el manejo de librerías es más complicado que otros lenguajes como Java o .Net y su curva de aprendizaje muy alta.
 
 ### INSTALACIÓN
+1. Lo primero es descargar el programa que nos ayudará a poder usar c++, esto lo sacaremos de la siguiente página: [https://sourceforge.net/projects/mingw/](https://sourceforge.net/projects/mingw/ "Descargar minGW")
+
+![Página](./Im%C3%A1genes/C%2B%2B/instalacion/1_descargar.png "Descargar MIinGW")
+
+2. Ahora necesitamos ubicar el archivo descargado: 
+
+![Ubicar](./Im%C3%A1genes/C%2B%2B/instalacion/2_ubicar.png "Ubicar MIinGW")
+
+3. Le damos clic derecho para que inicie con la instalación: 
+
+![Instalar](./Im%C3%A1genes/C%2B%2B/instalacion/3_siguiente.png "Comenzar instalación")
+
+3. Ahora solo necesita dar clic en **Next** en las ventanas que le aparezcan:
+
+![Página](./Im%C3%A1genes/C%2B%2B/instalacion/4_directorio.png "Next")
+
+![Página](./Im%C3%A1genes/C%2B%2B/instalacion/5_siguiente.png "Next")
+
+![Página](./Im%C3%A1genes/C%2B%2B/instalacion/6_instalando.png "Next")
+
+4. Solo necesita dar clic en finalizar para terminar la instalación.
+
+![Página](./Im%C3%A1genes/C%2B%2B/instalacion/7_finalizar.png "Next")
+
 ### CONFIGURACIÓN
 #### **ENTORNO (SISTEMA OPERATIVO)**
+5. Ahora necesitamos configurar el sistema. Necesitamos ubicar la carpeta de MinGW, esta en Windows:
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/8_ubicar_carpeta.png "Ubicar carpeta")
+
+6. Ahora seleccionamos la carpeta **mingw64** 
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/9_seleccionar_64.png "Seleccionar mingw64")
+
+7. Después de eso seleccionamos la carpeta **bin** y lo abrimos
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/10_carptea_bi.png "Seleccionar carpeta bin")
+
+8. Ahora, necesitamos copiar la ruta actual: 
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/11_copiar_ruta.png "Copiar ruta")
+
+9. Después de eso tenemos que dirigirnos a configuración, en **Sistema**, seleccionamos **Acerca de**
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/12_configuracion_acerca.png "Entrar a configuración")
+
+10. Y ubicamos el apartado de configuración avanzada del sistema:
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/13_configuracion_avanzada.png "Configuración avanzada")
+
+11. Nos aparecera la siguiente ventana y seleccionamos **Variables de entorno...**
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/14_variables.png "Vriables de entorno")
+
+12. Ahora ubicaremos el apartado de **Path**, lo seleccionamos y damos clic en **Editar**
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/15_seleccionar.png "Editar")
+
+13. Nos aparecerá lo siguiente y daremos clic en **Nuevo**
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/16_nuevo.png "Agregar variable de entorno")
+
+14. Nos dara la opción de agregar una nueva variable, ahí pegaremos la ruta que copiamos y damos clic en **Aceptar**.  
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/17_aceptar.png "Agregar ruta")
+
+15. En la otra ventana damos clic en **Aceptar**.
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/18_aceptar.png "Aceptar")
+
+16. En la otra también damos clic en **Aceptar** y listo, ya tendremos configurado **C++** para usar.
+
+![Configurar](./Im%C3%A1genes/C%2B%2B/instalacion/19_aceptar.png "Aceptar")
 
 #### **ENTORNO (EDITOR DE TEXTO)**
 Para poder usar el lenguaje de programación, necesita usar un editor de texto, algunos editores de texto recomendados son mencionados en este proyecto (Sublime Text, Atom o VSCode), en este caso se hara uso de VSCode. Es recomendable usar una extensión de C++ para este editor de texto pues gracias a esto se tiene una gran variedad de herramientas para poder utilizar. Para poder instalar una extensión se hace lo siguiente:  
